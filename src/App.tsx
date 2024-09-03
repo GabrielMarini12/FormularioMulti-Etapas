@@ -9,11 +9,11 @@ const router = createBrowserRouter([
     element: <FormSep1 />,
   },
   {
-    path: "/FormStep2",
+    path: "/step2",
     element: <FormSep2 />,
   },
   {
-    path: "/FormStep3",
+    path: "/step3",
     element: <FormSep3 />,
   },
 ]);
