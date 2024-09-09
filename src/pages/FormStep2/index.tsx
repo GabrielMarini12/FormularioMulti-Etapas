@@ -10,10 +10,14 @@ export const FormSep2 = () => {
   const { state, dispatch } = useForm();
 
   useEffect(() => {
-    dispatch({
-      type: FormActions.setCurrentStep,
-      payload: 2,
-    });
+    if (state.name === "") {
+      navigate("/");
+    } else {
+      dispatch({
+        type: FormActions.setCurrentStep,
+        payload: 2,
+      });
+    }
   }, []);
 
   const handleNextStep = () => {
