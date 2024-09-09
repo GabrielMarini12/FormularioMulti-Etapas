@@ -1,5 +1,7 @@
 # Formulário Multi-Etapas
 
+Formulário de cadastro multi-etapas 📝
+
 - Dependências:
   - styled-components
     - npm install styled-components
