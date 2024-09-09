@@ -3,6 +3,7 @@ import * as C from "./styles";
 import { useForm, FormActions } from "../../contexts/FormContext";
 import { Theme } from "../../components/Theme";
 import { useEffect } from "react";
+import { SelectOption } from "../../components/SelectOption";
 
 export const FormSep2 = () => {
   const navigate = useNavigate();
@@ -31,6 +32,18 @@ export const FormSep2 = () => {
         <p>Preencha o campo a baixo com seu nome completo</p>
 
         <hr />
+
+        <SelectOption
+          title="Sou iniciante"
+          description="Comecei a programar há menos de 2 anos"
+          icon="😅"
+        />
+
+        <SelectOption
+          title="Sou programador"
+          description="Já programo há 2 anos ou mais"
+          icon="😎"
+        />
 
         <button onClick={handleNextStep}>Próximo</button>
       </C.Container>
