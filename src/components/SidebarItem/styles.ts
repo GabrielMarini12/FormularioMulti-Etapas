@@ -11,12 +11,41 @@ export const Container = styled.div`
   }
 `;
 
-export const Info = styled.div``;
+export const Info = styled.div`
+  flex: 1;
+  margin-right: 20px;
+`;
 
-export const Title = styled.div``;
+export const Title = styled.div`
+  text-align: right;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 15px;
+  color: #fff;
+`;
 
-export const Description = styled.div``;
+export const Description = styled.div`
+  text-align: right;
+  font-size: 13px;
+  color: #b8b8d4;
+`;
 
-export const IconArea = styled.div``;
+export const IconArea = styled.div`
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #494a7c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
 
-export const Point = styled.div``;
+export const Point = styled.div`
+  width: 10px;
+  height: 10px;
+  border: 2px solid #494a7c;
+  border-radius: 50%;
+  margin-left: 30px;
+  margin-right: -6px;
+  background-color: #02044a;
+`;
