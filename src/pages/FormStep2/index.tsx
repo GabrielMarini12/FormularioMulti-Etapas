@@ -22,7 +22,7 @@ export const FormSep2 = () => {
 
   const handleNextStep = () => {
     if (state.name !== "") {
-      navigate("/step2");
+      navigate("/step3");
     } else {
       alert("Preencha os dados!");
     }
