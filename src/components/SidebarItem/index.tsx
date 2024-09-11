@@ -6,9 +6,16 @@ type Props = {
   description: string;
   icon: string;
   path: string;
+  active: boolean;
 };
 
-export const SidebarItem = ({ title, description, icon, path }: Props) => {
+export const SidebarItem = ({
+  title,
+  description,
+  icon,
+  path,
+  active,
+}: Props) => {
   return (
     <C.Container>
       <Link to={path}>
@@ -16,7 +23,7 @@ export const SidebarItem = ({ title, description, icon, path }: Props) => {
           <C.Title>{title}</C.Title>
           <C.Description>{description}</C.Description>
         </C.Info>
-        <C.IconArea>
+        <C.IconArea active={active}>
           {icon === "profile" && (
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +68,7 @@ export const SidebarItem = ({ title, description, icon, path }: Props) => {
             </svg>
           )}
         </C.IconArea>
-        <C.Point></C.Point>
+        <C.Point active={active}></C.Point>
       </Link>
     </C.Container>
   );
