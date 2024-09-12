@@ -2,6 +2,12 @@
 
 Formulário de cadastro multi-etapas 📝
 
+# Tecnologia
+
+- React JS
+- TypeScript
+
+# Começando
 - Dependências:
   - styled-components
     - npm install styled-components
