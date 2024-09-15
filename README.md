@@ -18,7 +18,7 @@ Formulário de cadastro multi-etapas 📝
    
 # Como usar
 
-- 1 - Ao acessar o projeto, essa é a tela inicial... etapa 1.
+- 1 - Ao acessar o projeto, essa é a tela inicial (etapa 1).
 
 ![image](https://github.com/user-attachments/assets/f4ce8601-9258-4b6e-9523-be61530a9a76)
 
