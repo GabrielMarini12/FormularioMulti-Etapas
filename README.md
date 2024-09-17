@@ -32,7 +32,7 @@ Formulário de cadastro multi-etapas 📝
 
 # Características
 
-As principais características do site são:
+As principais características do Formulário Multi-Etapas são:
 - Verificação das etapas 1, 2 e 3.
 - Proteção de páginas, ou seja,o usuário só poderá ir para as etapas seguintes se concluir a etapa que esta.
 - Sidebar dinâmico, de acordo com a etapa que o usuário esta.
