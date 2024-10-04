@@ -1,4 +1,4 @@
-# Formulário Multi-Etapas
+# Formulário multi-Etapas
 
 Formulário de cadastro Multi-etapas 📝
 
