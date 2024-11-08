@@ -1,6 +1,6 @@
 # Formulário multi-Etapas
 
-Formulário de cadastro multi-etapas 📝
+Formulário de cadastro Multi-etapas 📝
 
 # Tecnologia
 
